@@ -1,0 +1,73 @@
+@import url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf);
+.container {
+  background-color: rgb(209, 209, 209);
+  color: #000000;
+  font-family: monospace, "Century Gothic", "Lato", sans-serif;
+  width: 70%;
+  border-radius: 7px;
+  padding: 5%;
+  margin: 5% auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.flex2 {
+  border-right: 0.1px solid rgba(178, 170, 171, 0.185);
+}
+.flex_content {
+  padding: 5% 10%;
+  flex: 1;
+}
+.flex_content h2 {
+  font-weight: 600;
+}
+.flex_content h4 {
+  font-weight: 400;
+}
+.flex_content span {
+  font-weight: 200;
+}
+.flex_content h4 {
+  margin: 0;
+}
+.flex_content ul {
+  padding-inline-start: 7%;
+  margin: 20% 0;
+}
+.flex_content ul li {
+  font-weight: 200;
+}
+.flex_content button {
+  outline: none;
+  border: none;
+  background: #000000;
+  color: #eee;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  font-family: monospace, "Century Gothic", "Lato", sans-serif;
+  cursor: pointer;
+}
+.flex_content:nth-of-type(1) button {
+  background: transparent;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+
+@media screen and (max-width: 540px) {
+  .flex {
+    flex-direction: column;
+  }
+  .flex2 {
+    border: none;
+  }
+}
+
+
+img {
+  width: 15vw;
+  height: 15vw;
+}

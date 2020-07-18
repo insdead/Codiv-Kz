@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/part.css">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/ma.css">
+</head>
+<body>
+  
+      <!-- Hero -->
+  <section class="et-hero-tabs">
+
+    <div class="wrapper" style="margin-bottom: 10%;">
+        <p class="typing-demo" style="margin: 0 auto; font-size: 2vw;">
+            Every day hundreds of people die from Covid-19. Let's save the world!
+        </p>
+    </div>
+
+    <p id="lazy" style="margin: 0 auto; font-size: 30px;">0</p>
+    <p id="message" style="margin: 0 auto; font-size: 30px;">65000</p><p id="message1">cases</p>
+    
+    <script src="scripts/jquery-1.12.4.min.js"></script>
+    <script>
+    //When the page has loaded.
+    $( document ).ready(function(){
+        $('#message').fadeIn('slow', function(){
+            $('#message').delay(18000).fadeOut(); 
+        });
+    });
+    $( document ).ready(function(){
+        $('#message1').fadeIn('slow', function(){
+            $('#message1').delay(18000).fadeOut(); 
+        });
+    });
+    $(document).ready(function () {
+        // Hide the div
+        $("#lazy").hide();
+        // Show the div after 5s
+        $("#lazy").delay(18000).fadeIn(100);  
+    });  
+    </script> 
+        
+    </div>
+    
+    <div class="et-hero-tabs-container">
+      <a class="et-hero-tab" href="#tab-es6">Symptoms</a>
+      <a class="et-hero-tab" href="#tab-flexbox">Treatment</a>
+      <a class="et-hero-tab" href="#tab-react">Prophylaxis</a>
+      <a class="et-hero-tab" href="#tab-angular">Map</a>
+      <a class="et-hero-tab" href="#tab-other">Statistics</a>
+      <span class="et-hero-tab-slider"></span>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="et-main">
+    <section class="et-slide" id="tab-es6" style="border-bottom: 1px solid black;">   
+      <div class="container flex">
+        <div class="flex_content flex2">
+            <h2>Symptoms</h2>
+            <ul>
+                <li>Fever</li> 
+                <li>Dry cough</li>
+                <li>Tiredness</li>
+            </ul>
+            
+        </div>
+        <div class="flex_content">
+          <img src="img/med.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="et-slide" id="tab-flexbox"  style="border-bottom: 1px solid black;">
+      <div class="container flex">
+        <div class="flex_content flex2">
+            <h2>Treatment</h2>
+            <ul>
+                <li>Rest</li> 
+                <li>Drink plenty of fluid</li>
+                <li>Eat nutritious food</li>
+            </ul>
+            
+        </div>
+        <div class="flex_content">
+          <img src="img/doc.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="et-slide" id="tab-react" style="border-bottom: 1px solid black;">
+      <div class="container flex">
+        <div class="flex_content flex2">
+            <h2>Prophylaxis</h2>
+            <ul>
+                <li>Clean your hands</li> 
+                <li>Wear a mask</li>
+                <li>Workout</li>
+            </ul>
+            
+        </div>
+        <div class="flex_content">
+          <img src="img/work.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="et-slide" id="tab-angular" style="border-bottom: 1px solid black;">
+      <div class="card">
+        <div class="fold"></div>
+        <div class="fold"></div>
+        <div class="fold"></div>
+        <div class="fold"></div>
+        <div class="fold"></div>
+      </div>
+    </section>
+    <section class="et-slide" id="tab-other" style="border-bottom: 1px solid black;">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 741 450">
+        <defs>
+        </defs>
+        <line fill="none" stroke="#4AC900" stroke-width="4" stroke-miterlimit="10" x1="77" y1="11" x2="10" y2="11"/>
+        <line fill="none" stroke="#4AC900" stroke-width="4" stroke-miterlimit="10" x1="171" y1="11" x2="77" y2="11"/>
+        <line fill="none" stroke="#4AC900" stroke-width="4" stroke-miterlimit="10" x1="238" y1="11" x2="171" y2="11"/>
+        <line fill="none" stroke="#4AC900" stroke-width="4" stroke-miterlimit="10" x1="292" y1="11" x2="238" y2="11"/>
+        <line fill="none" stroke="#4AC900" stroke-width="4" stroke-miterlimit="10" x1="367" y1="11" x2="292" y2="11"/>
+        <line fill="none" stroke="#4AC900" stroke-width="4" stroke-miterlimit="10" x1="466" y1="11" x2="367" y2="11"/>
+        <line fill="none" stroke="#4AC900" stroke-width="4" stroke-miterlimit="10" x1="512" y1="11" x2="466" y2="11"/>
+        <line fill="none" stroke="#4AC900" stroke-width="4" stroke-miterlimit="10" x1="588" y1="11" x2="511" y2="11"/>
+        <line fill="none" stroke="#4AC900" stroke-width="4" stroke-miterlimit="10" x1="645" y1="11" x2="588" y2="11"/>
+        <line fill="none" stroke="#4AC900" stroke-width="4" stroke-miterlimit="10" x1="731" y1="11" x2="645" y2="11"/>
+        <g>
+          <circle fill="#FF8300" cx="10.5" cy="10.5" r="10.5"/>
+          <circle fill="#FF8300" cx="77.5" cy="10.5" r="10.5"/>
+          <circle fill="#FF8300" cx="171.5" cy="10.5" r="10.5"/>
+          <circle fill="#FF8300" cx="238.5" cy="10.5" r="10.5"/>
+          <circle fill="#FF8300" cx="292.5" cy="10.5" r="10.5"/>
+          <circle fill="#FF8300" cx="367.5" cy="10.5" r="10.5"/>
+          <circle fill="#FF8300" cx="466.5" cy="10.5" r="10.5"/>
+          <circle fill="#FF8300" cx="510.5" cy="10.5" r="10.5"/>
+          <circle fill="#FF8300" cx="588.5" cy="10.5" r="10.5"/>
+          <circle fill="#FF8300" cx="645.5" cy="10.5" r="10.5"/>
+          <circle fill="#FF8300" cx="730.5" cy="10.5" r="10.5"/>
+        </g>
+        <path id="graph-measurement" fill="none" stroke="#741E00" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+          M731,127H10 M10,127v-18 M113,127v-9.1 M731,109v18 M216,127v-9.1 M319,127v-9.1 M422,127v-9.1 M525,127v-9.1 M628,127v-9.1"/>
+        </svg>
+        
+    </section>
+  </main>
+    <script src="scripts/TweenMax.min.js"></script>
+    <script src="scripts/sym.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/preloader.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+</body>
+</html>
